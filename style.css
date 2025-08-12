@@ -1,1 +1,47 @@
+/* Importa uma fonte do Google Fonts para deixar o visual mais legal */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Estilo do corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Cor de fundo inicial */
+    transition: background-color 0.5s ease; /* Adiciona uma transição suave */
+    color: #333;
+}
+
+/* Estilo do container central */
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do botão */
+#colorButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Efeito de hover no botão */
+#colorButton:hover {
+    background-color: #0056b3;
+}
+
+/* Efeito de clique no botão */
+#colorButton:active {
+    transform: scale(0.98);
+}
